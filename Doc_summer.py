@@ -1,5 +1,6 @@
 import nltk
 import re
+nltk.download("all")
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize,sent_tokenize
 import streamlit as st
