@@ -25,7 +25,7 @@ def summarizer(files):
     weights=[]
 
     for i,j in freq.items():
-        if(j>=8):
+        if(j>=15):
             top_words.append(i)
             weights.append(j/len(new_tokens))
 # print(top_words)
