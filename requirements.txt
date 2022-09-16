@@ -1,0 +1,5 @@
+nltk
+regex
+streamlit
+nltk.corpus
+nltk.tokenize
