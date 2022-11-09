@@ -69,7 +69,7 @@ def summary():
     result =""
     if st.button("Summarize"):
         result = summarizer(my_file)
-    st.success(result)
+    st.write(result)
         
 
 
